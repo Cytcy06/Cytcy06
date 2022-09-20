@@ -1,0 +1,24 @@
+let pelouse = parseInt(prompt("Bonjour, combien de mettre² voulez vous tondre"));
+//let L = parseInt(prompt("Avez vous une pelouse de plus de 3000 metre carré ?"));
+let robot;
+let som;
+var val = confirm("Avez vous une pelouse de plus de " + pelouse + " metre carré ?");
+if( val == true ) {
+         console.log("L'utilisateur veut continuer!");
+         			robot = confirm("Voulez vous un robot tondeuse");
+						if( robot == true ) {
+    			     console.log("L'utilisateur veut continuer!");
+         
+						} else {
+  			       console.log("bbbbbb");
+						}
+} else {
+         console.log("L'utilisateur ne veut pas continuer!");
+                  			robot = confirm("Voulez vous un robot tondeuse");
+						if( robot == true ) {
+    			     console.log("L'utilisateur veut continuer!");
+         
+						} else {
+  			       console.log("bbbbbb");
+						}
+}
