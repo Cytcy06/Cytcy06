@@ -1,0 +1,37 @@
+var name = prompt("Bonjour, ton nom");
+var surname = prompt("ton prenom st^p");
+var  tout = name.charAt(0) + surname.charAt(0)
+let robot;
+robot = confirm("Voulez vous que je vous appelle " + tout);
+						if( robot == true ) {
+            	alert("je vous apelerais " + tout)
+    			     console.log("L'utilisateur veut continuer!");
+         
+						} else {
+            	alert("ok")
+  			       console.log("bbbbbb");
+						}
+
+let pelouse = parseInt(prompt("Bonjour, combien de mettre² voulez vous tondre"));
+//let L = parseInt(prompt("Avez vous une pelouse de plus de 3000 metre carré ?"));
+
+var val = confirm("Avez vous une pelouse de plus de " + pelouse + " metre carré ?");
+if( val == true ) {
+         console.log("L'utilisateur veut continuer!");
+         			robot = confirm("Voulez vous un robot tondeuse");
+						if( robot == true ) {
+    			     console.log("L'utilisateur veut continuer!");
+         
+						} else {
+  			       console.log("bbbbbb");
+						}
+} else {
+         console.log("L'utilisateur ne veut pas continuer!");
+                  			robot = confirm("Voulez vous un robot tondeuse");
+						if( robot == true ) {
+    			     console.log("L'utilisateur veut continuer!");
+         
+						} else {
+  			       console.log("bbbbbb");
+						}
+}
